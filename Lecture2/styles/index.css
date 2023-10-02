@@ -32,3 +32,15 @@ img{
     margin: 0 auto;
     padding: 20px;
 }
+.portreit_2{
+    border-radius: 8px;
+    max-width: 300px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_page_btn{
+    background-color: #e0ccd0;
+    font-size: medium;
+}
