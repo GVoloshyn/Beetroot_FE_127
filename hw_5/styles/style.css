@@ -1,0 +1,7 @@
+body{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+header li{
+    display: inline;
+}
