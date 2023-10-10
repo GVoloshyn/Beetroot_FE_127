@@ -1,0 +1,38 @@
+section{
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+.browsers {
+    list-style: none;
+}
+.browsers li{
+    display: inline;
+}
+.browsers img{
+    max-width: 50px;
+}
+img{
+    max-width: 600px;
+}
+header ul{
+    list-style: none;
+    background-color: #2e6226;
+}
+header a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li{
+    display: inline;
+    padding: 50px;
+}
+button{
+    background-color: #b60c0c;
+}
+button a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
