@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+.container{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-right: 40px;
+}
+header ul li:last-child {
+    margin-right: 0;
+}
+header ul li a{
+    color:#828282;
+    text-decoration: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+
+}
+header ul li a:hover{
+    color: black;
+}
+.Denis h2{
+    color: #070707;
+    font-family: Open Sans, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.Denis img{
+    width: 970px;
+    height: 387px;
+    flex-shrink: 0;
+}
+.about{
+    margin-top: 0;
+    background: #F6F6F6;
+    padding: 100px;
+}
+.about h2 {
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.about p{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+.about p:nth-child(1){
+    max-width: 480px;
+}
+.about p:nth-child(2){
+    max-width: 406px;
+}
+.about p:last-child{
+    max-width: 321px;
+}
+.skills{
+    height: 564px;
+    align-items: center;
+    justify-content: center;
+}
+.skills h2{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 100px auto 20px auto;
+}
+
+.skills p{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.skilpart{
+    width: 170px;
+    height: 230px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 97px;
+}
+.skilpart:last-child{
+    margin-right: 0;
+}
+
+.skills_icon ul li img{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+.skills_icon ul li img:last-child{
+    width: 53px;
+    height: 79px;
+}
+.skills_icon p{
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    height: 38px;
+    margin: 25px auto 60px auto;
+}
+.skills_icon li p:nth-child(1){
+    width: 78px;
+}
+.skills_icon li p:nth-child(2){
+    width: 78px;
+}
+.skills_icon li p:nth-child(3){
+    width: 90px;
+}
+.skills_icon li p:nth-child(4){
+    width: 44px;
+    height: 19px;
+    margin-bottom: 80px;
+}
+.stars li{
+    display: inline;
+}
+.stars li img{
+    width: 26px;
+    height: 26px;
+}
+.portfolio{
+    height: auto;
+    background: #F6F6F6;
+    padding: 100px;
+}
+.portfolio h2{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.portfolio img{
+    width: 970px;
+    height: 540px;
+    flex-shrink: 0;
+}
+.portfolio p{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin: 40px auto 70px auto;
+    width: auto;
+    max-width: 200px;
+}
+.portfolio p:last-child{
+    max-width: 260px;
+    margin-bottom: 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    height: 400px;
+
+}
+.contact h2{
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 100px auto 20px auto;
+}
+.contact p{
+    color: #070707;
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 280px;
+    width: auto;
+}
+.contact p:last-child{
+    width: auto;
+    max-width: 200px;
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+.contact button {
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 22px;
+    background: #070707;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.contact ul{
+    margin-bottom: 50px;
+}
+.contact li{
+    display: inline;
+    align-items: center;
+    margin-right: 50px;
+}
+.contact li:last-child{
+    margin-right: 0;
+}
